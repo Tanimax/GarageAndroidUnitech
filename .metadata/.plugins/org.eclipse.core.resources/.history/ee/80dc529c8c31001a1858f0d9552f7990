@@ -1,0 +1,34 @@
+package Modele;
+
+public abstract class Form {
+	
+	String nomform;
+
+	public Form(String nomform) {
+		this.nomform = nomform;
+	}
+	
+	
+	
+	
+	public String getNomform() {
+		return nomform;
+	}
+
+
+
+
+	public void setNomform(String nomform) {
+		this.nomform = nomform;
+	}
+
+	abstract double surface();
+	
+	abstract double perimetre();
+
+
+	public String toString() {
+		return getNomform()+" Surface: "+Math.round(surface()*1000)/1000+" Perimetre: "+Math.round(perimetre()*1000)/1000;
+	}
+	
+}

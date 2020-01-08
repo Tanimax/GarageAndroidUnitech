@@ -1,0 +1,11 @@
+package test;
+
+public class HelloWorld {
+	
+
+	  public static void main(String[] args) {
+		  Carre carre=new Carre();
+		  carre.cote=4;
+		  System.out.println(carre.Perimetre());
+	  }
+}

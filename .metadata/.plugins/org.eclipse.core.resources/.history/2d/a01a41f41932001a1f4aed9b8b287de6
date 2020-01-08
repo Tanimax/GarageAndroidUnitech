@@ -1,0 +1,19 @@
+package Affichage;
+
+import Modele.Personne;
+
+public class Affichage {
+	
+	public static void main(String[] args) {
+		
+		Personne personne=new Personne();
+		
+		personne.setNom("Capois");
+		personne.setPrenom("La Mort");
+		personne.setSexe("masculin");
+		
+		System.out.println(personne.getNom()+" "+personne.getPrenom()+" "+personne.getSexe());
+		
+	}
+
+}

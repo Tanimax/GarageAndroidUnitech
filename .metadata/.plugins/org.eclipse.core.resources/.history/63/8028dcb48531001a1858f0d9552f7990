@@ -1,0 +1,13 @@
+package Modele;
+
+public class Form {
+	
+	String nomform;
+
+	public Form(String nomform) {
+		this.nomform = nomform;
+	}
+	
+	
+	
+}

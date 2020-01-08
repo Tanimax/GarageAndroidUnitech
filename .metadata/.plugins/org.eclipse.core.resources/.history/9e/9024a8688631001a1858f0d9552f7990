@@ -1,0 +1,19 @@
+package Modele;
+
+public class Rectangle extends Form{
+	
+	
+
+	@Override
+	double surface() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	double perimetre() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
